@@ -1,0 +1,53 @@
+body { 
+    background-color:whitesmoke;
+    margin: none;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:honeydew;
+    text-align: center;
+    background-color: rebeccapurple;
+    margin: 0;
+}
+
+h3 {
+    font-family: serif;
+    color:skyblue;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-family: monospace;
+    color:rebeccapurple;
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline: solid black 1px;
+    border-radius: 0px, 0px, 5px, 5px;
+}
+
+.main-content {
+    box-shadow: 0 0 3px #111;
+}
+
+.factoids {
+    display: flex;
+    background-color:lightskyblue;
+}
+
+.main-container {
+    outline: solid 1px black;
+    -moz-box-shadow:    3px 3px 5px 6px #123;
+    -webkit-box-shadow: 3px 3px 5px 6px #123;
+    box-shadow:         3px 3px 5px 6px #123;
+}
